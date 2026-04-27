@@ -65,7 +65,7 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
     float mipLevelExact = max(0.0, log2(effectiveDerivative / minPixelSize));
 
     const vec2 offsets[4] = vec2[](
-    vec2(0.125, 0.375),
+    vec2(0.129, 0.375),
     vec2(-0.125, -0.375),
     vec2(0.375, -0.125),
     vec2(-0.375, 0.125)
